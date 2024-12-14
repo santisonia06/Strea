@@ -253,18 +253,6 @@ padding: 18px;
 	   font-family: 'Play', sans-serif;
     font-size: 20px;
 	  }
-  </style>
-  	<script>
-	window.addEventListener('DOMContentLoaded', function() {
-    var elements = document.getElementsByTagName('a');
-    
-    for (var i = 0; i < elements.length; i++) {
-        var element = elements[i];
-        if (element.getAttribute('title') === 'Hosted on free web hosting 000webhost.com. Host your own website for FREE.') {
-            element.parentElement.removeChild(element);
-        }
-    }
-});
-	</script>
+  </style>
 </body>
 </html>
